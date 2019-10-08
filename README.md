@@ -1,10 +1,5 @@
 # useWindowResize
 
-**Usage:**
-```
-const { width, height } = useWindowResize();
-```
-
 ```
 <span>height: {height}px</span>
 ```
@@ -33,4 +28,9 @@ export function useWindowResize() {
     height
   };
 }
+```
+
+**Usage:**
+```
+const { width, height } = useWindowResize();
 ```
